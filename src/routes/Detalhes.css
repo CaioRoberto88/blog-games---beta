@@ -1,0 +1,187 @@
+.container-detalhes img {
+  height: 520px;
+  width: 100%;
+  border: 1px solid #f2c230;
+}
+
+.container-biografia img {
+  width: 80px;
+  height: 80px;
+  margin: 1rem auto;
+  border: 1px solid #f2c230;
+  border-radius: 10px 5px;
+}
+
+.biografia {
+  text-align: start;
+  width: 768px;
+  padding: 1rem;
+  border-radius: 10px 5px;
+}
+
+.biografia p:first-child {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* COMPARTILHAR NOTICIAS NAS REDES SOCIAIS */
+
+.fa-facebook-f,
+.fa-x-twitter,
+.fa-whatsapp {
+  font-size: 1.2rem;
+  transition: 0.4s;
+}
+
+.facebook,
+.twitter,
+.whatsapp {
+  text-align: center;
+  width: 300px;
+  padding: 1rem;
+  margin: 0 auto;
+  border: 1px solid #fff;
+  transition: 0.4s;
+}
+
+.facebook:hover,
+.twitter:hover,
+.whatsapp:hover {
+  border: 1px solid #f2c230;
+}
+
+/* COMENTARIOS */
+
+.fa-comment {
+  font-size: 2rem;
+  position: relative;
+  bottom: 0.3rem;
+}
+.qtd-comentario {
+  color: #f29d35;
+  position: relative;
+  right: 1.4rem;
+  bottom: 0.7rem;
+}
+
+.container-comentarios {
+  max-width: 992px;
+  margin: 0 auto;
+}
+
+.container-comentarios .usuario {
+  background-color: #f29d35;
+  padding-top: 1rem;
+}
+
+.container-comentarios img {
+  height: 50px;
+  width: 50px;
+  border: none;
+}
+
+.container-comentarios .usuario-nome {
+  position: relative;
+  text-align: center;
+}
+
+.comentado-em {
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.comentario-data {
+  color: #000;
+  font-size: 0.8rem;
+}
+
+.usuario {
+  border: 1px solid #fff;
+}
+
+.usuario img {
+  border: 1px solid #000;
+}
+
+.container-comentarios .comentario {
+  padding-top: 1rem;
+  background-color: #f2c230;
+  border: 1px solid #fff;
+}
+
+.fa-users {
+  font-size: 2rem;
+  color: #f29d35;
+  margin: 1rem 0rem;
+}
+
+#avaliacao {
+  width: 140px;
+}
+
+.container-avaliacao {
+  text-align: center;
+}
+
+.container-avaliacao img {
+  height: 50px;
+  width: 60px;
+  background-color: #fff;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 10px;
+}
+
+.avaliação-usuario {
+  font-size: 0.8rem;
+  background-color: #000;
+  padding: 1rem;
+  margin-left: 1rem;
+  border-radius: 10px 5px;
+}
+
+.avaliação-usuario span {
+  position: relative;
+  top: 5px;
+}
+
+.form-select {
+  width: 215px;
+}
+.form-select option {
+  color: #000;
+}
+
+/* AVALIAÇÃO DETALHES */
+
+.container-avaliacao-detalhes {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.avaliacao-lista {
+  display: flex;
+  flex-direction: row;
+}
+
+.progress-personalizada {
+  width: 100%;
+  margin-top: 0.2rem;
+  margin-left: 1rem;
+}
+
+.fa-star {
+  margin-top: 0.2rem;
+  color: #f2c230;
+}
+
+.progress {
+  background-color: #fff;
+}
+
+.progress-bar {
+  background-color: #f2c230;
+  font-weight: normal;
+  text-align: justify;
+  padding: 0 0 0 0.5rem;
+}

@@ -1,0 +1,147 @@
+/* GERAL */
+
+* {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  font-family: helvetica;
+  color: #fff;
+}
+
+body {
+  background-color: #f2c230;
+}
+
+body,
+.container-principal {
+  min-height: 1000px;
+  min-width: 768px;
+}
+
+.container-principal {
+  background-color: #000;
+  max-width: 992px;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  color: #f2c230;
+  border: 1px solid;
+}
+
+ul li {
+  list-style: none;
+}
+
+.btn-geral {
+  width: 150px;
+  color: #fff;
+  background-color: #f24405;
+  padding: 0.5rem 1rem;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+
+.btn-geral:hover {
+  opacity: 0.7;
+  border: 2px solid #f2c230;
+}
+
+.noticia-autor {
+  color: #f2c230;
+  font-size: 0.9rem;
+}
+
+.avaliacao-do-site {
+  font-size: 2rem;
+  color: #f2c230;
+}
+
+/* FORMULÁRIO */
+
+.form-control,
+.form-select {
+  border: 0px transparent;
+  padding: 0.5rem;
+  box-shadow: none !important;
+  border: 2px solid transparent;
+  transition: 0.4s;
+}
+
+.form-control:hover,
+.form-select:hover {
+  border: 2px solid #f2c230;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border: 2px solid #f2c230;
+}
+
+input.form-control[type="file"] {
+  border-color: transparent;
+  border: 2px solid transparent;
+  transition: 0.4s;
+}
+input.form-control[type="file"]:hover {
+  border: 2px solid #f2c230;
+}
+
+/* FEEDBACK AOS USUÁRIOS */
+
+.Toastify__toast-body div {
+  color: #fff;
+  font-size: 1.2rem;
+}
+.Toastify__toast-container {
+  width: 500px;
+}
+.Toastify__toast-theme--light,
+.Toastify__toast--error {
+  background-color: #000;
+}
+
+/* FEEDBACK DO CARREGAMENTO DO SERVIDOR */
+.carregando-dados-api {
+  font-size: 1.6rem;
+}
+
+/* PAGINAÇÃO */
+
+.page-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.page-item {
+  color: #fff;
+  padding: 0.2rem;
+}
+
+.active-page {
+  margin-bottom: 1rem;
+  background-color: #f2c230;
+  border-radius: 10%;
+}
+
+.page-link {
+  transition: 0.4s;
+}
+
+.page-link:hover {
+  color: #f2c230;
+}
+
+@media (max-width: 576px) {
+  /* FEEDBACK AOS USUÁRIOS */
+  .Toastify__toast-container {
+    width: 500px;
+    position: relative;
+    margin-top: -75px;
+    margin-left: 250px;
+  }
+}

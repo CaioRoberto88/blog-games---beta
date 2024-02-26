@@ -1,0 +1,71 @@
+.navbar-brand img {
+  width: 70px;
+}
+
+.navbar {
+  background-color: #f29d35;
+}
+
+.navbar-nav {
+  background-color: #0d0c0b;
+}
+
+.nav-link {
+  height: 40px;
+  color: #fff;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+.nav-link:hover {
+  color: #f2c230;
+}
+
+.navbar-nav .nav-link.active {
+  color: #f2c230;
+}
+
+.bi-person-fill-lock {
+  font-size: 1rem;
+  color: #f2c230;
+  margin-right: 0.2rem;
+}
+
+.categoria-lista {
+  border-radius: 5px;
+}
+
+.usuario-lista {
+  border-radius: 5px;
+}
+
+.btn-painel-usuario {
+  padding: 0.5rem 0.8rem;
+  background-color: #f24405;
+  border: transparent;
+  border-radius: 5px;
+}
+
+.dropdown-menu {
+  text-align: center;
+  width: 190px;
+  --bs-dropdown-bg: #000;
+  --bs-dropdown-link-hover-bg: transparent;
+  --bs-dropdown-link-active-bg: transparent;
+}
+
+@media (max-width: 991px) {
+  .navbar-toggler .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .categoria-lista {
+    padding: 0 0 0 0.6rem;
+    width: 200px;
+    margin: 0.1rem;
+  }
+
+  .btn-painel-usuario {
+    margin: 0.1rem;
+  }
+}

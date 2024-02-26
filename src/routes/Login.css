@@ -1,0 +1,24 @@
+.esqueceu-senha {
+  font-size: 0.8rem;
+}
+
+@media (min-width: 576px) {
+  .login {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .login {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .login {
+    width: 50%;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,56 @@
+.painel-admin .form-select {
+  width: 240px;
+}
+
+.form-select.categoria {
+  width: 280px;
+}
+
+.container-admin img {
+  height: 60px;
+  border: 1px solid #f2c230;
+  border-radius: 10px 5px;
+}
+
+.admin-nome {
+  font-size: 1rem;
+  color: #f2c230;
+}
+
+.container-admin p:last-child {
+  width: 160px;
+  max-width: 300px;
+  background-color: #f29d35;
+  border-radius: 10px 5px;
+}
+
+.comentarios-comentario,
+.comentarios-usuario,
+.comentarios-idUsuario {
+  color: #f2c230;
+  font-weight: bold;
+  padding: 0 1rem;
+}
+
+.todasnoticias {
+  border: 1px solid #f29d35;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.todasnoticias .noticias-titulo,
+.noticias-autor,
+.noticias-postado {
+  color: #f2c230;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.todoscomentarios {
+  border: 1px solid #f29d35;
+  height: 300px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 5px;
+}

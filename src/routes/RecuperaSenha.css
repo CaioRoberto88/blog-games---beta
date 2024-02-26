@@ -1,0 +1,24 @@
+.esqueceu-senha {
+  font-size: 0.8rem;
+}
+
+@media (min-width: 576px) {
+  .recuperar_senha {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .recuperar_senha {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .recuperar_senha {
+    width: 50%;
+    margin: 0 auto;
+  }
+}

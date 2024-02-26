@@ -1,0 +1,29 @@
+.nova_senha {
+  font-size: 0.8rem;
+}
+
+.dica span {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+@media (min-width: 576px) {
+  .nova_senha {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .nova_senha {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .nova_senha {
+    width: 50%;
+    margin: 0 auto;
+  }
+}

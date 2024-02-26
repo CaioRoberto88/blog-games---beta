@@ -1,0 +1,7 @@
+.container-perfil img {
+  height: 100px;
+  display: block;
+  margin: 2rem auto;
+  border-radius: 100%;
+  border: 1px solid #f29d35;
+}
